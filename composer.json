@@ -18,6 +18,19 @@
   "autoload": {
     "psr-4": {
       "Zxf5115\\Laravel\\Local\\Upload\\": "src/"
+    },
+    "files": [
+      "src/Helpers/function.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zxf5115\\Laravel\\Local\\Upload\\Providers\\FileServiceProvider"
+      ],
+      "aliases": {
+        "File": "Zxf5115\\Laravel\\Local\\Upload\\Facades\\FileFacade"
+      }
     }
   }
 }

@@ -1,15 +1,12 @@
 <?php
-namespace Zxf5115\Laravel\Local\Upload;
+namespace Zxf5115\Laravel\Local\Upload\Services;
 
 use zxf5115\Upload\Gateway;
 
 /**
- * @author zhangxiaofei [<1326336909@qq.com>]
- * @dateTime 2024-06-12
- *
- * 文件操作类
+ * 文件操作服务类
  */
-class File
+class FileService
 {
   /**
    * @author zhangxiaofei [<1326336909@qq.com>]
