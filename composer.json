@@ -1,0 +1,23 @@
+{
+  "name": "zxf5115/laravel-local-upload-service",
+  "description": "A Laravel Plugin For Encapsulation Local Upload Services",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhang XiaoFei",
+      "email": "1326336909@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.8.*||^6.0||^7.0||^8.0||^9.0||^10.0||^11.0",
+    "iidestiny/laravel-filesystem-oss": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zxf5115\\Laravel\\Local\\Upload\\": "src/"
+    }
+  }
+}
